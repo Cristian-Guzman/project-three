@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog de café</title>
+</head>
+<body>
+
+<header class="header">
+
+    <div class="contenedor">
+        <div class="header__barra">
+                
+                <a href="./index.html" class="header__navegacion__logo">
+                    <h1 class="header__navegacion__logo--encabezado">Blog<span class="span">DeCafé</span></h1>
+                </a>
+
+            <nav class="header__navegacion">    
+                <div class="header__enlaces">
+                    <a class="header__enlaces--apartado" href="./nosotros.html">Nosotros</a>
+                    <a class="header__enlaces--apartado" href="./cursos.html">Cursos</a>
+                    <a class="header__enlaces--apartado" href="/contacto.html">Contacto</a>
+                </div>
+            </nav>
+        </div> <!-- .header__barra -->
+        <div class="header__principal">
+            <h2 class="header__principal--titulo">Blog de Café con consejos y cursos
+            </h2>
+            <p class="header__principal--texto">Aprende de los expertos con las mejores recetas y consejos.</p>
+        </div> 
+    </div> <!-- .contenedor -->
+
+</header> <!-- .header -->
+
+<main class="contenedor">
+    <h3 class="main-header">Sobre Nosotros</h3>
+    <div class="main-grid">
+
+        <picture class="main-grid__img">
+            <source class="main-grid__webp" loading="lazy" srcset="img/nosotros.webp" type="image/webp"> 
+            <source class="main-grid__webp" loading="lazy" srcset="img/nosotros.jpg" type="image/jpg"> 
+            <img class="main-grid__webp" src="img/nosotros.jpg" alt="Imagen blog" loading="lazy">
+        </picture>
+        <div class="main-grid__parrafos">
+        <p class="main-grid__parrafo">Quisque aliquet egestas dolor rhoncus dapibus. Aliquam suscipit sapien sit amet mollis tempor. Curabitur justo felis, feugiat id viverra at.</p>
+        <p class="main-grid__parrafo">luctus ut orci. Vivamus eu interdum mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut in odio non dui finibus tincidunt sit amet eu velit. Curabitur nec massa pharetra, interdum risus eget, egestas ante. Vestibulum pellentesque, sapien id placerat gravida, purus lacus commodo ligula, vel aliquet neque urna nec nunc.</p>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="contenedor">
+        <div class="footer__barra">
+                
+            <a href="#" class="footer__logo">
+                <h1 class="footer__encabezado">Blog<span class="span">DeCafé</span></h1>
+            </a>
+
+        <nav class="footer__navegacion">    
+            <div class="footer__enlaces">
+                <a class="footer__link" href="./nosotros.html">Nosotros</a>
+                <a class="footer__link" href="#">Cursos</a>
+                <a class="footer__link" href="#">Contacto</a>
+            </div>
+        </nav>
+        </div> 
+    </div> 
+    </footer> <!-- .footer -->
+    <script src="js/script.js"></script>
+</body>
+</html>
